@@ -102,7 +102,7 @@ author:
   avatar           : /assets/images/fox_avatar.png
   bio              : "죽음 마렵다"
   location         : "Seoul, Korea"
-  # email            :  stalker5217@gmail.com
+  email            :  stalker5217@gmail.com
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
