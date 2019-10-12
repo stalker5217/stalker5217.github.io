@@ -99,14 +99,17 @@ analytics:
 # Site Author
 author:
   name             : "SONG"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "죽음마렵다"
+  avatar           : /assets/images/fox_avatar.png
+  bio              : "죽음 마렵다"
   location         : "Seoul, Korea"
-  email            :  stalker5217@gmail.com
+  # email            :  stalker5217@gmail.com
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/stalker5217
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: stalker5217@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -116,9 +119,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -126,20 +126,21 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: stalker5217@gmail.com
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
