@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name             : "SONG"
-  avatar           : /assets/images/fox_avatar.jpg
+  avatar           : /assets/images/avatar/fox.jpg
   bio              : "죽음 마렵다"
   location         : "Seoul, Korea"
   email            :  stalker5217@gmail.com
