@@ -3,14 +3,14 @@
 # 1. Theme Settings
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # 2. Site Settings
 locale                   : "ko"
-title                    : "메모 블로그"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+title                    : "Development Blog"
+title_separator          : "Ganadara"
+subtitle                 : #
+name                     : "Song"
 description              : "An amazing website."
 url                      : https://staker5217.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -56,8 +56,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -96,7 +96,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# 4. Site Author
 author:
   name             : "SONG"
   avatar           : /assets/images/avatar/fox.jpg
@@ -109,7 +109,7 @@ author:
       url: https://github.com/stalker5217
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: stalker5217@gmail.com
+      # url:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -123,13 +123,12 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-# Site Footer
+# 5. Site Footer
 footer:
   links:
-
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: stalker5217@gmail.com
+      url: https://github.com/stalker5217
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -146,8 +145,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-
-# Reading Files
+# 6. Reading Files
 include:
   - .htaccess
   - _pages
@@ -184,7 +182,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# 7. onversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -192,7 +190,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
-# Markdown Processing
+# 8. Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -204,20 +202,20 @@ kramdown:
   enable_coderay: false
 
 
-# Sass/SCSS
+# 9. Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
+# 10. Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins (previously gems:)
+# 11. Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -225,7 +223,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
+# 12. mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -234,7 +232,7 @@ whitelist:
   - jekyll-include-cache
 
 
-# Archives
+# 13. Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
@@ -263,7 +261,7 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# HTML Compression
+# 14 .HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
@@ -271,7 +269,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# 15. Defaults
 defaults:
   # _posts
   - scope:
@@ -281,6 +279,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
