@@ -6,12 +6,12 @@
 minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # 2. Site Settings
-locale                   : "ko"
+locale                   : "en-US"
 title                    : "Development Blog"
-title_separator          : "Ganadara"
+title_separator          : "-"
 subtitle                 : #
 name                     : "Song"
-description              : "An amazing website."
+description              : "Development and Study History"
 url                      : https://staker5217.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : stalker5217/stalker5217.github.io
