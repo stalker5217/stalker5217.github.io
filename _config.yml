@@ -285,7 +285,7 @@ defaults:
 
   # _posts/c++
   - scope:
-      path: "_posts/c++"
+      path: "_posts/C++"
       type: posts
     values:
       layout: single
