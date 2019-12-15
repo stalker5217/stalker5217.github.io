@@ -283,17 +283,18 @@ defaults:
       share: true
       related: true
 
-  # _posts/C++
-  - scope:
-      path: "_posts/C++"
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      comments: true
-      share: true
-      search: true
-      related: true
-      sidebar:
-      nav: sidebar-C++
+
+  # _posts/cpp
+  # - scope:
+  #     path: "_posts/cpp"
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     classes: wide
+  #     author_profile: true
+  #     comments: true
+  #     share: true
+  #     search: true
+  #     related: true
+  #     sidebar:
+  #     nav: sidebar-cpp
