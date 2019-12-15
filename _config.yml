@@ -11,7 +11,7 @@ title                    : "메모장"
 title_separator          : "-"
 subtitle                 : #
 name                     : "Song"
-description              : "Development and Study History"
+description              : "programming"
 url                      : https://staker5217.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : stalker5217/stalker5217.github.io
@@ -282,3 +282,18 @@ defaults:
       comments: true
       share: true
       related: true
+
+  # _posts/c++
+  - scope:
+      path: "_posts/c++"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      sidebar:
+      nav: sidebar-blogging
