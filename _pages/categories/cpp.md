@@ -1,9 +1,9 @@
 ---
 title: "C++ Posting"
 layout: archive
-permalink: /categories/CPP
+permalink: /categories/cpp
 author_profile: true
-sidebar_main: true
+# sidebar_main: true
 ---
 {% assign posts = site.categories.cpp | sort:"date" %}
 {% for post in posts %}
