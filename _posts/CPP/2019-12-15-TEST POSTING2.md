@@ -1,11 +1,11 @@
 ---
-title: 테스트
+title: 테스트2
 excerpt: "테스트 포스팅"
 search: true
 categories:
-  - C++
+  - cpp
 tags:
-  - C++
+  - cpp
 ---
 
 안녕하세요. 존나 테스트입니다.
