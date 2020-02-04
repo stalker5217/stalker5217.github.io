@@ -1,5 +1,5 @@
 ---
-title: GIT 기초 정리
+title: GIT 기초 정리 - 1
 excerpt: "GIT 기초"
 search: true
 categories:
@@ -58,7 +58,41 @@ git commit
 
 
 <br>
-Commit History 조회
+
+<h2> 3. commit log </h2>
+
+다음과 같은 명령어로 Commit History를 조회할 수 있다.
 ~~~
 git log [-p] [-num]
+~~~
+<br>
+
+<h2> 4. rollback </h2>
+
+여러 작업을 하다보면 수정, 스테이징, 커밋을 다시 이전 상태로 돌려야할 필요가 존재한다.
+
+- 수정으로 Modified 상태인 파일을 복구하기
+
+~~~
+git checkout -- [file]  # 지정한 파일을 복구
+git checkout commitHash # 저장소를 지정한 commit hash 상태로 복구
+~~~
+
+<h5> ※복구된 파일은 원래 상태로 되돌릴 수없으니 주의 </h5>
+<br>
+- Staged 상태로 올린 파일을 Unstaged로 내리기
+
+~~~
+git reset HEAD [file]
+~~~
+<br>
+- commit 취소
+
+~~~
+git reset --soft HEAD^  # 가장 최근 commit을 하기 전 상태로 돌림
+git reset HEAD^         # 가장 최근 commit, staging을 하기 이전 상태로 돌림
+git reset --hard HEAD^  # 가장 최근 commit, staging, file 수정을 하기이전 상태로 돌림
+
+git reset commitHash    # 지정한 commit hash 상태로 복구
+git revert commitHash   # 현재 커밋 상태를 삭제하지 않고, 지정한 commit hash 상태로 복구
 ~~~
