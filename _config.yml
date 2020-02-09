@@ -12,7 +12,7 @@ title_separator          : "-"
 subtitle                 : #
 name                     : "Song"
 description              : "programming"
-url                      : https://staker5217.github.io
+url                      : https://stalker5217.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : stalker5217/stalker5217.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
