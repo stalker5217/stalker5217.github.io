@@ -1,11 +1,13 @@
 ---
-title: GIT 기초 정리 - 1
+title: GIT 기초 - 1
 excerpt: "GIT 기초"
 search: true
 categories:
   - git
 tags:
   - git
+  - github
+  - 깃
 ---
 
 <h2> 1. 저장소 생성 </h2>
