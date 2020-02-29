@@ -10,7 +10,7 @@ tags:
   - 깃
 ---
 
-<h2> 1. 저장소 생성 </h2>
+## 1. 저장소 생성
 
 1. 버전 관리를 하고 있지 않은 새로운 디렉토리를 git으로 관리하고 싶은 경우
 ~~~
@@ -24,7 +24,7 @@ git clone <url>
 ~~~
 
 
-<h2> 2. 파일 수정 및 저장 </h2>
+## 2. 파일 수정 및 저장
 
 Working Directory의 file의 상태는 다음과 같이 나타낼 수 있다.
 
@@ -61,7 +61,7 @@ git commit
 
 <br>
 
-<h2> 3. commit log </h2>
+## 3. commit log
 
 다음과 같은 명령어로 Commit History를 조회할 수 있다.
 ~~~
@@ -69,7 +69,7 @@ git log [-p] [-num]
 ~~~
 <br>
 
-<h2> 4. rollback </h2>
+## 4. rollback
 
 여러 작업을 하다보면 수정, 스테이징, 커밋을 다시 이전 상태로 돌려야할 필요가 존재한다.
 
@@ -80,7 +80,7 @@ git checkout -- [file]  # 지정한 파일을 복구
 git checkout commitHash # 저장소를 지정한 commit hash 상태로 복구
 ~~~
 
-<h5> ※복구된 파일은 원래 상태로 되돌릴 수없으니 주의 </h5>
+##### ※복구된 파일은 원래 상태로 되돌릴 수없으니 주의
 <br>
 - Staged 상태로 올린 파일을 Unstaged로 내리기
 

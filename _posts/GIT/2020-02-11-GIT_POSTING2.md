@@ -10,4 +10,4 @@ tags:
   - 깃
 ---
 
-<h2> 1. Branch란? </h2>
+## 1. Branch란

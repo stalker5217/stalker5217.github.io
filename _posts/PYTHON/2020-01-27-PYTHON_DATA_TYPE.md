@@ -8,7 +8,7 @@ tags:
   - python
 ---
 
-<h2> string </h2>
+## string
 
 ~~~ python
 1. 큰 따옴표로 둘러싸기
@@ -25,7 +25,7 @@ tags:
 ~~~
 
 
-<h2> List, Tuple, Dictionary, Set </h2>
+## List, Tuple, Dictionary, Set
 
 ~~~ python
 # 일반적인 선형 자료구조를 가지는 list
