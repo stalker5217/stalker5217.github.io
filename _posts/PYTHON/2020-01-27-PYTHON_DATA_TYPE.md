@@ -1,6 +1,6 @@
 ---
 title: 파이썬 자료형 정리
-excerpt: "파이썬 자료형 정리"
+excerpt: "python basic data type"
 search: true
 categories:
   - python
