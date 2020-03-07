@@ -1,6 +1,7 @@
 ---
 title: GIT 기초 - Local Repository
-excerpt: "GIT 기초"
+toc: true,
+toc-stick: true,
 search: true
 categories:
   - git

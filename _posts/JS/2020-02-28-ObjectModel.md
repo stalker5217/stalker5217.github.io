@@ -1,6 +1,7 @@
 ---
 title: '[Javascript] BOM, DOM'
-excerpt: "Brower Object Model, Document Object Model"
+toc: true,
+toc-stick: true,
 search: true
 categories:
   - javascript

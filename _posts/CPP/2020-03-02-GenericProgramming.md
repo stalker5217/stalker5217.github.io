@@ -1,6 +1,7 @@
 ---
 title: '[STL]Generic Programming'
-excerpt: "Generic Programming"
+toc: true,
+toc-stick: true,
 search: true
 categories:
   - cpp
