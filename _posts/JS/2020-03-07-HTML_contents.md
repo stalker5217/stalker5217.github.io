@@ -1,6 +1,7 @@
 ---
 title: '[Javascript] HTML 콘텐츠 수정'
-excerpt: "document.wirte(), element.innerHTML, DOM 조작"
+toc: true,
+toc-stick: true,
 search: true
 categories:
   - javascript

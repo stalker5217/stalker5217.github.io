@@ -1,6 +1,7 @@
 ---
 title: '[Javascript] Closure'
-excerpt: "Javascript prototype"
+toc: true,
+toc-stick: true,
 search: true
 categories:
   - javascript
@@ -11,6 +12,9 @@ tags:
 
 ## ProtoType이란?  
 Javasciprt에서는 일반적인 객체지향언어와 달리 class 개념이 존재하지 않는다. 
+물론, ECMAScript6 부터는 ```class``` 문법을 지원하고 있지만, 이는 엄밀히 말해서 prototype을 기반으로하는 문법일 뿐이다.
+
+
 
 
 avaScript : 프로토타입(prototype) 이해
