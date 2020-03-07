@@ -125,3 +125,5 @@ tags:
 	var pos = document.getELementsByTagName('ul')[0];
 	pos.removeChild(delEl);
 	```
+
+5. **HTML 콘텐츠를 수정하는 기법**
