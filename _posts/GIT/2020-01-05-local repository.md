@@ -81,7 +81,7 @@ git checkout -- [file]  # 지정한 파일을 복구
 git checkout commitHash # 저장소를 지정한 commit hash 상태로 복구
 ~~~
 
-##### ※복구된 파일은 원래 상태로 되돌릴 수없으니 주의
+***※복구된 파일은 원래 상태로 되돌릴 수없으니 주의***
 <br>
 - Staged 상태로 올린 파일을 Unstaged로 내리기
 
