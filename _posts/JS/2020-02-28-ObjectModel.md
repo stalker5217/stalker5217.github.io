@@ -9,6 +9,7 @@ tags:
   - javascript
   - js
 ---
+## BOM, DOM
 
 1. **BOM (Browser Object Model)**  
 	
