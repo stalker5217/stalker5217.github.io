@@ -128,4 +128,19 @@ tags:
 	pos.removeChild(delEl);
 	```
 
-5. **HTML 콘텐츠를 수정하는 기법**
+5. **특성 노드**
+   ``` javascript
+   // class 속성 가져오기
+   document.getElementById('one').getAttribute('class');
+
+   // 클래스 속성 수정
+   document.getElementById('one').setAttribute('class', 'myClass');
+
+   // 속성 여부 검사
+   if(document.getElementById('one').hasAttribute('class')){
+	   ...
+   }
+
+   // 속성 삭제
+   document.getElementById('one').removeAttribute('class');s
+   ```
