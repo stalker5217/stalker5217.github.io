@@ -1,5 +1,5 @@
 ---
-title: '[STL]Generic Programming'
+title: '[STL] Generic Programming'
 toc: true,
 toc-stick: true,
 search: true

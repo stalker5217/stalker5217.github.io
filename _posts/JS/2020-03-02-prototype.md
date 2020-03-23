@@ -10,16 +10,26 @@ tags:
   - js
 ---
 
-## ProtoType이란?  
-Javasciprt에서는 일반적인 객체지향언어와 달리 class 개념이 존재하지 않는다. 
-물론, ECMAScript6 부터는 ```class``` 문법을 지원하고 있지만, 이는 엄밀히 말해서 prototype을 기반으로하는 문법일 뿐이다.
+## ProtoType
+Prototype은 디자인패턴 중 하나이다.
+객체의 생성이 이미 존재하는 객체를 clone하여 생성하는 방식이다.
+<br>
+자바스크립트는 일반적인 객체지향언어와 달리 class 개념이 존재하지 않으며 prototype을 통해 객체를 생성한다.
+물론, ECMAScript6 부터는 ```class``` 문법을 지원하고 있지만, 이는 엄밀히 말해서 prototype을 기반으로하는 문법일 뿐이다.  
+
+![proto_type](/assets/images/javascript/prototype.png)
+
+``` js
+var myArr = new Array();
+myArr.push(1);
+myArr.push(2);
+myArr.push(3);
+```
+
+위 코드에서 ```new``` 키워드로 통해 배열을 생성하면 ```myArr```은 ```Array```의 ```prototype```을 가리키게 되며
+이를 통해 push와 같은 메소드를 사용할 수 있는 것이다.
 
 
-
-
-avaScript : 프로토타입(prototype) 이해
- Nextree  Mar 25, 2014  16 Comments
-JavaScript는 클래스라는 개념이 없습니다. 그래서 기존의 객체를 복사하여(cloning) 새로운 객체를 생성하는 프로토타입 기반의 언어입니다. 프로토타입 기반 언어는 객체 원형인 프로토타입을 이용하여 새로운 객체를 만들어냅니다. 이렇게 생성된 객체 역시 또 다른 객체의 원형이 될 수 있습니다. 프로토타입은 객체를 확장하고 객체 지향적인 프로그래밍을 할 수 있게 해줍니다. 프로토타입은 크게 두 가지로 해석됩니다. 프로토타입 객체를 참조하는 prototype 속성과 객체 멤버인 proto 속성이 참조하는 숨은 링크가 있습니다. 이 둘의 차이점을 이해하기 위해서는 JavaScript 함수와 객체의 내부적인 구조를 이해 해야합니다. 이번 글에서는 JavaScript의 함수와 객체 내부 구조부터 시작하여 프로토타입에 대해 알아보겠습니다.
 
 
 
@@ -50,7 +60,7 @@ Array
 - name
 
 prtotype 아래
--concat
+- concat
 - filter
 - foreach
 - map
