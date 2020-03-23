@@ -1,5 +1,5 @@
 ---
-title: GIT 기초 - Local Repository
+title: "[GIT] Local Repository"
 toc: true,
 toc-stick: true,
 search: true
