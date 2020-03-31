@@ -1,7 +1,7 @@
 ---
 title: "[GIT] Local Repository"
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - git

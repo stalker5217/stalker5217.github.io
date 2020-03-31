@@ -1,7 +1,7 @@
 ---
 title: '[Javascript] HTML 콘텐츠 수정'
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - javascript

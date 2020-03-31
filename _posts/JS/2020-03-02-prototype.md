@@ -1,7 +1,7 @@
 ---
 title: '[Javascript] 프로토타입'
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - javascript

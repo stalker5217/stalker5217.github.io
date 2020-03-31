@@ -1,7 +1,7 @@
 ---
 title: '[Javascript] BOM, DOM'
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - javascript
