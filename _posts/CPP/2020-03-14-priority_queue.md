@@ -1,7 +1,7 @@
 ---
 title: '[STL] Priority Queue(우선순위 큐)'
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - cpp

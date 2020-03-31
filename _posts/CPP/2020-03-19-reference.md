@@ -1,7 +1,7 @@
 ---
 title: '[C++] Reference(참조자)'
-toc: true,
-toc-stick: true,
+toc: true
+toc-stick: true
 search: true
 categories:
   - cpp
