@@ -4,7 +4,7 @@ toc: true
 toc-stick: true
 search: true
 categories:
-  - cpp
+  - algorithm
 tags:
   - cpp
   - c++
