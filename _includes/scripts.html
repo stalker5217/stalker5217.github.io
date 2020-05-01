@@ -79,7 +79,8 @@
       inlineMath: [ ['$', '$'] ],
       displayMath: [ ['$$', '$$'] ],
       processEscapes: true,
-    }
+      },
+      displayAlign: "left"
   });
   MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
       alert("Math Processing Error: "+message[1]);
