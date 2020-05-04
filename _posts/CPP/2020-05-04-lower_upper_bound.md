@@ -14,7 +14,7 @@ tags:
 
 ## lower_bound와 #upper_bound  
 
-``<algorhtm>`` 헤더에 정의되어 있으며 함수 원형은 다음과 같다.  
+``<algorihtm>`` 헤더에 정의되어 있으며 함수 원형은 다음과 같다.  
 
 ``` cpp
 
