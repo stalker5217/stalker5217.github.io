@@ -12,9 +12,9 @@ tags:
   - standard template library
 ---
 
-## lower_bound와 #upper_bound
+## lower_bound와 #upper_bound  
 
-<algorhtm> 헤더에 정의되어 있으며 함수 원형은 다음과 같다.  
+\`<algorhtm>\` 헤더에 정의되어 있으며 함수 원형은 다음과 같다.  
 
 ``` cpp
 
@@ -49,12 +49,14 @@ int main(){
     arr.push_back(40);
     arr.push_back(50);
 
+    // 21 출력
     cout << *lower_bound(arr.begin(), arr.end(), 21) << endl;
-    // index 반환
+    // index(1) 출력
     cout << lower_bound(arr.begin(), arr.end(), 21) - arr.begin() << endl;
 
+    // 35 출력
     cout << *upper_bound(arr.begin(), arr.end(), 21) << endl;
-    // index 반환
+    // index(2) 출력
     cout << upper_bound(arr.begin(), arr.end(), 21) - arr.begin() << endl;
 
     return 0;
