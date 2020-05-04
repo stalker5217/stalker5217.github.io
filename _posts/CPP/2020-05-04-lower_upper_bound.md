@@ -12,7 +12,7 @@ tags:
   - standard template library
 ---
 
-## lower_bound와 #upper_bound  
+## lower_bound와 upper_bound  
 
 ``<algorihtm>`` 헤더에 정의되어 있으며 함수 원형은 다음과 같다.  
 
