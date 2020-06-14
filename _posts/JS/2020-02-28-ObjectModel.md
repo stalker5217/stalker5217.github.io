@@ -144,3 +144,7 @@ tags:
    // 속성 삭제
    document.getElementById('one').removeAttribute('class');s
    ```
+
+
+참고
+- 장현희, 자바스크립트 & 제이쿼리 (인터랙티브 프론트엔드 웹 개발 교과서)
