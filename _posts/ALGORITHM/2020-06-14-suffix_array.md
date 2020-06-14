@@ -89,13 +89,26 @@ vector<int> getSuffixArray(const string & s){
 
 Example) S = "banana"
 
-한 글자 기준
+****한 글자 기준**
+
+|0|1|2|
+|:--:|:--:|:--:|
 |anana <br/> ana <br/> a|banana|nana <br/> na|
 
-두 글자 기준
+<br/>
+
+**두 글자 기준** 
+
+|0|1|2|3|
+|:--:|:--:|:--:|:--:|
 |a|anana <br/> ana|banana|nana <br/> na|
 
-네 글자 기준
+<br/>
+
+**네 글자 기준**  
+
+|0|1|2|3|4|5|
+|:--:|:--:|:--:|:--:|:--:|:--:|
 |a|ana|anana|banana|na|nana|
 
 정렬 과정에서 위의 표 처럼 각 문자열은 특정 t까지의 접미사를 기준으로 특정 group에 속하게 된다.
@@ -103,6 +116,8 @@ Example) S = "banana"
 
 S[a:]와 S[b:]를 비교할 때, group[a] != group[b]라면 이미 결정된 상태이고,
 group[a] == group[b]라면 group[a + t]와 group[b + t]를 비교하면 된다.
+
+<br/>
 
 참고
 - 구종만, 프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략
