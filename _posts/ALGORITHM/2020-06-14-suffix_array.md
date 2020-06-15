@@ -89,7 +89,7 @@ vector<int> getSuffixArray(const string & s){
 
 Example) S = "banana"
 
-****한 글자 기준**
+**한 글자 기준**
 
 |0|1|2|
 |:--:|:--:|:--:|
@@ -116,6 +116,61 @@ Example) S = "banana"
 
 S[a:]와 S[b:]를 비교할 때, group[a] != group[b]라면 이미 결정된 상태이고,
 group[a] == group[b]라면 group[a + t]와 group[b + t]를 비교하면 된다.
+
+
+## LCP(Longest Common Prefix) array
+
+suffix array와 함께 문제 해결에 사용되는 배열이다.
+suffix array를 기반으로 구현을 할 수 있으며 [i-1]과 [i]의 가장 긴 접두사 길이를 저장한다.
+
+Example) banana
+
+|i|sa[i]|suffix|lcp[i]|
+|:--:|:--:|:--:|:--:|
+|0|5|a|x|
+|1|3|ana|1|
+|2|1|anana|3|
+|3|0|banana|0|
+|4|4|na|0|
+|5|2|nana|2|
+
+
+``` cpp
+vector<int> getLCPArray(const string& s, vector<int> sa){
+    int n = s.size();
+
+    vector<int> lcp(n);
+
+    // 접미사 시작 인덱스 : suffix array 인덱스
+    vector<int> rank(n);
+    for(int i = 0 ; i < n ; i++) rank[sa[i]] = i;
+
+    int matched = 0;
+    for(int i = 0 ; i < n ; i++){
+        int k = rank[i];
+        if (k){
+            for(int j = sa[k-1] ; s[i + matched] == s[j + matched] ; matched++);
+            lcp[k] = matched;
+ 
+            if (matched) --matched;
+        }
+    }
+    return lcp;
+}
+```
+
+<br/>
+<br/>
+
+
+마지막으로 이를 활용해 해결할 수 있는 문제를 몇 가지 게시한다.
+
+- [9248 : Suffix Array](https://www.acmicpc.net/problem/9248)
+- [3033 : 가장 긴 문자열](https://www.acmicpc.net/problem/3033)
+- [1605 : 반복 부문문자열](https://www.acmicpc.net/problem/1605)
+- [13264 : 접미사 배열2](https://www.acmicpc.net/problem/13264)
+- [11479 : 서로 다른 부분 문자열의 개수 2](https://www.acmicpc.net/problem/11479)
+- [9249 : 최장 공통 부분 문자열](https://www.acmicpc.net/problem/9249)
 
 <br/>
 
