@@ -8,7 +8,7 @@ categories:
 tags:
   - git
   - github
-  - 깃
+excerpt: 'git으로 local repository를 관리하는 법을 알아봅시다'
 ---
 
 ## 1. 저장소 생성

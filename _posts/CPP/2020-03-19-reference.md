@@ -8,6 +8,7 @@ categories:
 tags:
   - cpp
   - c++
+excerpt: 'C++의 참조자에 대해서 알아봅시다'
 ---
 
 ## 참조자  

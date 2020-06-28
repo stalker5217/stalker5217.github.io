@@ -8,6 +8,7 @@ categories:
 tags:
   - javascript
   - js
+excerpt: 'BOM, DOM에 대해 간략히 알아봅시다'
 ---
 ## BOM, DOM
 

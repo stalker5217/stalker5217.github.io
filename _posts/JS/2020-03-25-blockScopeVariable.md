@@ -10,6 +10,7 @@ tags:
   - js
   - ES6
   - ECMA Script 6
+excerpt: 'ES6의 block scope 변수에 대해서 알아봅시다'
 ---
 
 ## Block Scope Variable

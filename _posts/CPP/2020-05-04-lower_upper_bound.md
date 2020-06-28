@@ -10,6 +10,7 @@ tags:
   - c++
   - stl
   - standard template library
+excerpt: 'STL의 upper_bound, lower_bound 사용법을 알아봅시다'
 ---
 
 ## lower_bound와 upper_bound  

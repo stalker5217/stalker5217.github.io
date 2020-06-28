@@ -8,6 +8,7 @@ categories:
 tags:
   - cpp
   - c++
+excerpt: 'C++ 연산자 오버로딩에 대해서 알아봅시다'
 ---
 
 ## 연산자 오버로딩의 이해  

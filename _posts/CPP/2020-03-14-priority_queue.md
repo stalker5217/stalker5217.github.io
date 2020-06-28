@@ -10,6 +10,7 @@ tags:
   - c++
   - stl
   - standard template library
+excerpt: 'STL의 우선순위큐에 대해 알아봅시다'
 ---
 
 ## 우선순위 큐  

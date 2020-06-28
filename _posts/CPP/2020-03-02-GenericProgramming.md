@@ -10,6 +10,7 @@ tags:
   - c++
   - stl
   - standard template library
+excerpt: 'generic이 무엇인지 알아봅시다'
 ---
 
 ## Generic Programming이란?

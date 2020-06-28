@@ -8,6 +8,7 @@ categories:
 tags:
   - javascript
   - js
+excerpt: 'HTML의 내용을 스크립트로 수정하는 법을 알아봅시다'
 ---
 
 ## HTML Contents 수정 기법

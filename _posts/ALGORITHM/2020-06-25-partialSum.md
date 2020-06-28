@@ -8,6 +8,7 @@ categories:
 tags:
   - algorithm
   - partial sum
+excerpt: '1차원, 2차원 배열의 부분합을 구해봅시다'
 ---
 
 ## 부분합

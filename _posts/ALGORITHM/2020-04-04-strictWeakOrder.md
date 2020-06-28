@@ -12,6 +12,7 @@ tags:
   - standard template library
   - algorithm
   - data structure
+excerpt: 'sort 함수를 사용할 때 주의할 점을 알아봅시다'
 ---
 
 ## Sort 기준

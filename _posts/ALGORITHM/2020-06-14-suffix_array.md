@@ -8,6 +8,7 @@ categories:
 tags:
   - algorithm
   - suffix array
+excerpt: '많은 문자열 문제열 해결할 수 있는 접미사배열을 알아봅시다'
 ---
 
 ## suffix array  

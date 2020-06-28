@@ -13,6 +13,7 @@ tags:
   - Continuous Delivery
   - devops
   - automation
+excerpt: 'github action, AWS S3, AWS CodeDeploy를 사용하여 CI/CD 환경을 구성해봅시다'
 ---
 
 

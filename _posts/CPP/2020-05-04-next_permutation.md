@@ -10,6 +10,7 @@ tags:
   - c++
   - stl
   - standard template library
+excerpt: 'STL을 사용하여 순열을 구하는 법을 알아봅시다'
 ---
 
 ## next_permutation

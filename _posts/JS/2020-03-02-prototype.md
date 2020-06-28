@@ -8,6 +8,7 @@ categories:
 tags:
   - javascript
   - js
+excerpt: '이게 왜 푸쉬되있지?'
 ---
 
 ## ProtoType
