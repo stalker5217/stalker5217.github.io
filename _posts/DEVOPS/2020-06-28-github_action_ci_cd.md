@@ -27,7 +27,7 @@ CI/CD는 Continuous Integration, Continuous Deliver, Continuous Deployment를 �
 ![ci_cd](/assets/images/devops/cicd.png)
 
 
-CI/CD를 구축을 지원하는 툴은 생각보다 많다.
+CI/CD 구축을 지원하는 툴은 생각보다 많다.
 - Jenkins
 - Travis CI
 - Circle CI
@@ -36,8 +36,8 @@ CI/CD를 구축을 지원하는 툴은 생각보다 많다.
 - ...
 
 
-각 툴은 요금 체계부터 특성이 다 다르므로 프로젝트에 적합한 것을 선택하면 된다.
-이번 포스팅에서는 github action을 사용하여 구축을 시도한다.
+각 툴은 요금 체계부터 특성이 모두 다르므로 프로젝트에 적합한 것을 선택하면 된다.
+이 포스팅에서는 github action을 사용하여 구축을 시도한다.
 
 ## Github Action이란?
 
