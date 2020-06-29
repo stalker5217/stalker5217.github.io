@@ -33,11 +33,11 @@ AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다.
 
 ![iam2](/assets/images/devops/iam2.png)
 
-해당 페이지에서 'AmazonS3FullAccess', 'AWSCodeDepolyFullAccess' 두 개를 검색하여 활성화 시킨다.
+해당 페이지에서 'AmazonS3FullAccess', 'AWSCodeDepolyFullAccess' 두 가지 요소를 활성화 시킨다.
 
 ![iam3](/assets/images/devops/iam3.png)
 
-태그를 찍어주고, 4단계인 검토를 한다.
+태그를 찍어주고, 4단계 검토를 한다.
 
 ![iam4](/assets/images/devops/iam4.png)
 
@@ -47,7 +47,7 @@ AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다.
 
 ## S3 Bucket 생성
 
-S3에서 '버킷 만들기'를 하되, 3단계 권한 설정에서 모든 퍼블릭 액세스 차단을 한다.
+S3에서 '버킷 만들기'를 한다. 3단계 권한 설정에서 모든 퍼블릭 액세스 차단 이외에는 디폴트 옵션을 사용하였다.
 
 ![create_s3_bucket](/assets/images/devops/create_s3_bucket.png)
 
@@ -115,5 +115,10 @@ jobs:
 
 ```
 
+이제 workflow 동작은 프로젝트 파일을 압축하고 S3로 파일을 이관하는 작업이 추가되었다.
 
+![workflow_result](/assets/images/devops/workflow_result2.png)  
+![aws_s3_deliver_result](/assets/images/devops/aws_s3_deliver_result.png)
 
+이로써 github action을 사용한 S3 Bucket 파일 이관이 완료되었다. 
+이어지는 포스팅에서는 CodeDeploy를 통해 EC2에 배포하는 작업을 진행한다.
