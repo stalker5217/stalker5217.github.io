@@ -61,7 +61,7 @@ action에 키 값을 그대로 노출하는 것은 보안상 문제가 되므로
 
 workflow에 S3로 파일을 옮기는 job을 추가해 준다.
 
-``` yml
+``` yaml
 # This workflow will build a Java project with Gradle
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
@@ -104,8 +104,8 @@ jobs:
       # S3 Bucket으로 copy
       - name: Deliver to AWS S3
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: ${{'{{' }} secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{'{{' }} secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           aws s3 cp \
           --region ap-northeast-2 \
