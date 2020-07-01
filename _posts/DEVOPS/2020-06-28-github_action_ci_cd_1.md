@@ -25,7 +25,7 @@ excerpt: 'github action, AWS S3, AWS CodeDeploy를 사용하여 CI/CD 환경을 
 CI/CD는 Continuous Integration, Continuous Deliver, Continuous Deployment를 나타내는 용어이며
 위 과정들을 자동화하여 불필요한 공수를 줄이고 보다 빠른 서비스 제공을 할 수 있는 효과를 가질 수 있다.
 
-![ci_cd](/assets/images/devops/cicd.png)
+![ci_cd](/assets/images/devops/github_action_ci_cd/cicd.png)
 
 
 CI/CD 구축을 지원하는 툴은 생각보다 많다.
@@ -55,7 +55,7 @@ github action은 ci/cd만을 위한 도구는 아니고, 다양한 workflow를 �
 
 ## Workflow 작성하기
 
-![workflow_start](/assets/images/devops/workflow_start.png)
+![workflow_start](/assets/images/devops/github_action_ci_cd/workflow_start.png)
 
 repository의 github action 탭에 들어가면 다음과 같이 repository에 있는 language를 감지하여 화면이 나타난다.
 적용할 프로젝트가 spring boot & gradle 기반이므로 표기된 workflow를 선택한다.
@@ -99,6 +99,6 @@ jobs:
 
 해당 파일을 생성하고, 지정한대로 master branch에 push를 해보면 github action 탭에서 다음과 같은 내용을 확인할 수 있다.
 
-![workflow](/assets/images/devops/workflow_result.png)
+![workflow](/assets/images/devops/github_action_ci_cd/workflow_result.png)
 
 이로써 github action을 사용한 CI 구축이 완료되었다. 이어지는 포스팅에서 CD를 구축한다.
