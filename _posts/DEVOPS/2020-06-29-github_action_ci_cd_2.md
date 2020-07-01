@@ -27,19 +27,19 @@ AWS는 외부 서비스의 접근을 기본적으로 허용하지 않는다. 따
 
 ## IAM 생성
 
-AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다.
+AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다. 여기서 사용자란 AWS 외부에서 접속할 수 있는 권한을 줄 대상을 말한다.
 
-![iam1](/assets/images/devops/iam1.png)
+![iam_user_1](/assets/images/devops/iam_user_1.png)
 
-![iam2](/assets/images/devops/iam2.png)
+![iam_user_2](/assets/images/devops/iam_user_2.png)
 
 해당 페이지에서 'AmazonS3FullAccess', 'AWSCodeDepolyFullAccess' 두 가지 요소를 활성화 시킨다.
 
-![iam3](/assets/images/devops/iam3.png)
+![iam_user_3](/assets/images/devops/iam_user_3.png)
 
 태그를 찍어주고, 4단계 검토를 한다.
 
-![iam4](/assets/images/devops/iam4.png)
+![iam_user_4](/assets/images/devops/iam_user_4.png)
 
 그러면 해당 권한을 가진 사용자가 생성되고 ACCESS_KEY와 SECRET_KEY가 발급이 된다.  
 
