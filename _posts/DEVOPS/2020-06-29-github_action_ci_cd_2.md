@@ -25,7 +25,7 @@ AWS S3는 파일 서버 역할을 한다. github action에서 빌드한 결과�
 
 AWS는 외부 서비스의 접근을 기본적으로 허용하지 않는다. 따라서 IAM(Identify & Access Management)를 사용하여 접근 권한을 획득해야 한다.
 
-## IAM 생성
+## IAM 설정
 
 AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다. 여기서 사용자란 AWS 외부에서 접속할 수 있는 권한을 줄 대상을 말한다.
 
@@ -51,14 +51,14 @@ AWS IAM에서 사용자 그룹에서 '사용자 추가'를 한다. 여기서 사
 
 권한 설정을 했으니 이제 실제로 S3에서 저장될 버킷을 생성한다.
 
-## S3 Bucket 생성
+## S3 Bucket 설정
 
 S3에서 '버킷 만들기'를 한다. 3단계 권한 설정에서 모든 퍼블릭 액세스 차단 이외에는 디폴트 옵션을 사용하였다.
 
 ![create_s3_bucket](/assets/images/devops/github_action_ci_cd/create_s3_bucket.png)
 
 
-## github 세팅
+## github 설정
 
 이제 github repository에서 해당 키 값들을 세팅한다.
 action에 키 값을 그대로 노출하는 것은 보안상 문제가 되므로 repository의 'Settings -> Secret'에서 해당 키 값을 등록해준다.
