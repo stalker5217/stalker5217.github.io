@@ -100,12 +100,21 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
+      # Build
       - name: Build with Gradle
         run: ./gradlew clean build
 
+      # 전송할 파일을 담을 디렉토리 생성
+      - name: Make Directory for deliver
+        run: mkdir deploy
+
+      # Jar 파일 Copy
+      - name: Copy Jar
+        run: cp ./build/libs/*.jar ./deploy/
+
       # 압축파일 형태로 전달
       - name: Make zip file
-        run: zip -r -qq ./springboot-intro-build.zip ./*
+        run: zip -r -qq -j ./springboot-intro-build.zip ./deploy
 
       # S3 Bucket으로 copy
       - name: Deliver to AWS S3
@@ -128,3 +137,8 @@ jobs:
 
 이로써 github action을 사용한 S3 Bucket 파일 이관이 완료되었다. 
 이어지는 포스팅에서는 CodeDeploy를 통해 EC2에 배포하는 작업을 진행한다.
+
+<br/>
+
+참고
+- 스프링 부트와 AWS로 혼자 구현하는 웹 서비스, 프리렉

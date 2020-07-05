@@ -16,6 +16,7 @@ tags:
 excerpt: 'github action, AWS S3, AWS CodeDeploy를 사용하여 CI/CD 환경을 구성해봅시다'
 ---
 
+본 포스팅은 '스프링 부트와 AWS로 혼자 구현하는 웹 서비스, 이동욱'의 내용을 기반으로 작성될 예정입니다.  
 
 ## CI/CD  
 
@@ -97,7 +98,7 @@ jobs:
       run: ./gradlew clean build
 ```
 
-해당 파일을 생성하고, 지정한대로 master branch에 push를 해보면 github action 탭에서 다음과 같은 내용을 확인할 수 있다.
+해당 파일을 생성하고, 지정한대로 master branch에 push를 해보면 github action 탭에서 다음과 같이 build 결과를 확인할 수 있다.
 
 ![workflow](/assets/images/devops/github_action_ci_cd/workflow_result.png)
 
