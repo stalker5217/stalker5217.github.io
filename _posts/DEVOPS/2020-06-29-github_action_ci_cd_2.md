@@ -16,6 +16,13 @@ tags:
 excerpt: 'github action, AWS S3, AWS CodeDeploy를 사용하여 CI/CD 환경을 구성해봅시다'
 ---
 
+본 포스팅은 '스프링 부트와 AWS로 혼자 구현하는 웹 서비스, 이동욱'의 내용을 기반으로 작성한 내용입니다.  
+
+[Github Action을 사용한 Spring boot & gradle CI/CD 구축 - 1](https://stalker5217.github.io/devops/github_action_ci_cd_1/)  
+[Github Action을 사용한 Spring boot & gradle CI/CD 구축 - 2](https://stalker5217.github.io/devops/github_action_ci_cd_2/)  
+[Github Action을 사용한 Spring boot & gradle CI/CD 구축 - 3](https://stalker5217.github.io/devops/github_action_ci_cd_3/)  
+[Github Action을 사용한 Spring boot & gradle CI/CD 구축 - 4](https://stalker5217.github.io/devops/github_action_ci_cd_4/)   
+
 ## AWS S3 연동하기
 
 AWS S3는 파일 서버 역할을 한다. github action에서 빌드한 결과를 저장해 놓는 기능을 할 예정이며 flow는 다음과 같다.
