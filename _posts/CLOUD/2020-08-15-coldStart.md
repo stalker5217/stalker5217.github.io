@@ -141,4 +141,4 @@ Node < Python < Go < Java
 <br/>
 
 참고
-* [GCP Cloud Functions Documentation](https://cloud.google.com/functions/docs)
+* [Google Cloud Platform : Cloud Functions Documentation](https://cloud.google.com/functions/docs)
