@@ -7,11 +7,11 @@ minimal_mistakes_skin    : "custom" # "default", "air", "aqua", "contrast", "dar
 
 # 2. Site Settings
 locale                   : "en-US"
-title                    : "메모장"
+title                    : "SONG's DEVELOPMENT"
 title_separator          : "-"
 subtitle                 : #
 name                     : "Song"
-description              : "programming"
+description              : "꾸준히 남기는 기록"
 url                      : https://stalker5217.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : stalker5217/stalker5217.github.io
