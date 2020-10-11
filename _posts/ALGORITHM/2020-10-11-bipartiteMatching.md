@@ -9,7 +9,7 @@ tags:
   - algorithm
   - network flow
   - bipartite matching
-excerpt: 이분 매칭에 대해서 알아봅시다'
+excerpt: '이분 매칭에 대해서 알아봅시다'
 ---
 
 # Bipartite Matching
