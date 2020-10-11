@@ -119,7 +119,7 @@ bool dfs(int a){
 int bipartiteMatch(){
 	// 초기화
 	aMatch = vector<int>(n, -1);
-	bMatch = vector<int>(n, -1);
+	bMatch = vector<int>(m, -1);
 
 	int size = 0;
 
