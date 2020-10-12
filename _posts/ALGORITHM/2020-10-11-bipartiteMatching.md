@@ -98,8 +98,8 @@ int main(){
 
 bool dfs(int a){
 	if(visited[a]) return false;
-
 	visited[a] = true;
+	
 	for(int b = 0 ; b < m ; b++){
 		if(adj[a][b]){
 			// b가 이미 매칭되어 있으면 bMatch[b]에서 부터 시작해 증가 경로를 찾음
