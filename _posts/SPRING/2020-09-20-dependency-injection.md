@@ -4,8 +4,9 @@ toc: true
 toc-stick: true
 search: true
 categories:
-  - java
+  - spring
 tags:
+  - spring
   - java
   - dependency injection
 excerpt: '의존성 주입에 대하여 알아봅시다'
