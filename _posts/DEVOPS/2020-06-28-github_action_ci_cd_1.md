@@ -9,8 +9,8 @@ tags:
   - CI/CD
   - github action
   - Continuous Integration
-  - Continuous Depolyment
-  - Continuous Delivery
+  - Continuous Deployment
+  - Continuous DeliveryContinuous Deployment
   - devops
   - automation
   - AWS
