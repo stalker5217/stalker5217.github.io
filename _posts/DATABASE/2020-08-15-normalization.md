@@ -9,6 +9,7 @@ tags:
   - database
   - data modeling
   - normalization
+  - 기술 면접
 excerpt: '데이터 정규화에 대해서 알아봅시다'
 ---
 

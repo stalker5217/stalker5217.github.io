@@ -9,6 +9,7 @@ tags:
   - spring
   - java
   - dependency injection
+  - 기술 면접
 excerpt: '의존성 주입에 대하여 알아봅시다'
 ---
 

@@ -9,6 +9,7 @@ tags:
   - Java
   - JVM
   - Garbage Collector
+  - 기술 면접
 excerpt: '자바 메모리 구조와 가비지 컬렉터에 대해 알아봅시다'
 ---
 
